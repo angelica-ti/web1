@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page with Table</title>
+    <style>
+        table, tr, th, td{
+            border: 1px solid black;
+            height:50px;
+            text-align: center;
+        }
+        table{
+            width: 30%;
+        }
+        th{
+            text-align: left;
+            text-transform: uppercase;
+            color: white;
+            background-color: black;
+            font-weight: normal; /*Remove bold of the text*/
+        }
+        th, td {
+            /*padding: 25px 0px 10px 30px; order top right bottom left*/
+            padding-top: 25px;
+            padding-right: 0px;
+            padding-bottom: 10px;
+            padding-left: 30px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Resultados dos Métodos de Detecção Estudados</caption>
+        <colgroup>
+            <col span="1" style="background-color:black;">
+            <col span="2" style="background-color:rgb(10,160,98);">
+        </colgroup>
+        <tr style="height:100px;">
+            <th style="width: 20%;">Método</th>
+            <th colspan="2">Resultados</th>
+        </tr>
+        <tr>
+            <th rowspan="2">M1</th>
+            <td>10</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>8</td> 
+        </tr>
+        <tr>
+            <th rowspan="2">M2</th>
+            <td>105</td>
+            <td>201</td>
+        </tr>
+        <tr>
+            <td>97</td>
+            <td>200</td> 
+        </tr>
+    </table>
+    <video width="320" height="240" controls autoplay>
+        <source src="video/NATUREZA.mp4" type="video/mp4">
+        Your browser doesn't support this video
+    </video>
+    <iframe width="320" height="240">
+        <source src="https://www.youtube.com/watch?v=En20Y8PSWjk">
+    </iframe>
+    
+</body>
+</html>
