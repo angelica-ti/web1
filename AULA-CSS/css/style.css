@@ -1,0 +1,28 @@
+h1 {
+    font: italic bold 12px "Courier New"; 
+    text-decoration: overline;
+}
+h2 {
+    font: italic bold 12pt "Courier New"; 
+    text-align: center;
+    text-shadow: 3px 3px 4px 4px;
+}
+h3 {
+    font: italic bold 120% "Courier New"; /*font-style font-weight font-size font-family*/
+    text-transform: capitalize;
+    text-indent: 10%;
+    direction: rtl;
+}
+#different-style{
+    text-align: center;
+    color: #e0d2d2;
+    background-color: #472b01;
+    border-radius: 10px;
+
+}
+body{
+    background-color: gray;
+    background-image: url("../img/índice.jpeg");
+    background-size: cover;
+    background-repeat: repeat-y;
+}
