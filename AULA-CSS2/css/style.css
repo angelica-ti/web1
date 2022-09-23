@@ -1,0 +1,43 @@
+.like{
+    color:green;
+    /*text-decoration: underline;/*/
+}
+.sublinhado{
+    text-decoration: underline;
+}
+
+.dont-like{
+    color:red;
+}
+
+.btn{
+    font-size: 30px;
+    color: #9932CC;
+    background-color: #000;
+}
+.btn-green{
+    border-color: green;
+}
+.btn-red{
+    border-color: red;
+}
+
+input[type="reset"]{
+    border-radius: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+a:link{
+    color:blue;
+}
+a:visited{
+    color:red;
+}
+a:hover{
+    text-transform: uppercase;
+    font-weight: bold;
+    color:blue;
+    background-color: yellow;
+}
