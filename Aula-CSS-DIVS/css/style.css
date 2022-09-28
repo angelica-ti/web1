@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+
+div.box{
+    float: left;
+    overflow: scroll;
+    height: 200px;
+    width: 33%;
+
+}
+.box1{
+    padding: 50px;
+    background-color: orange;
+}
+
+div.box-img{
+    float: left;
+}
+
+/*div.box-simple{
+    border: 1px solid black;
+}*/
+.principal{
+    border: 1px solid black;
+    overflow: hidden;
+}
