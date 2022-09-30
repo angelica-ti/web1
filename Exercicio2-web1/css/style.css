@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    
+}
+
+.elements{
+    margin: 0 10% 0 10%;
+}
+
+input[name="search"]{
+    width: 90%;
+}
+
+.center{
+    text-align: center;
+}
+.searcher{
+    width: 100%;
+    height: 100px;   
+}
+.box{
+    border: 1px solid black;
+}
+.box-main{
+    height: 432px;
+    width: 100%;
+}
+video{
+    /* height: 100%; */
+    overflow: hidden;
+    width: 50%;
+}
+
+.login{
+    border: none;
+    border-bottom-style: dashed;
+    height: 60%;
+    padding: 15px;
+}
+button{
+    float:right;
+}
+
+.input-login{
+    float: right;
+}
+
+.border-side{
+    width: 25%;
+    height: 100%;
+    outline: 1px solid black;
+    text-align: justify;
+    /* border: none; */
+    /* overflow: hidden; */
+}
+
+.padding-l{
+    padding: 15px 30px 15px 15px;
+}
+
+.c1{
+    background-color: rgb(176, 176, 211);
+}
+
+footer{
+    clear:both;
+    border: none;
+    overflow: hidden;
+    padding: 50px;
+
+}
+.searcher-element{
+    width: 100%;
+}
+.pos-l{
+    float: left;
+}
+.pos-r{
+    float: right;
+}
+.box a{
+    text-decoration: none;
+    color: black;
+}
+.box a:hover{
+    background-color: rgb(229, 225, 225);
+}
+.box a:active{
+    background-color: rgb(229, 225, 225);
+}
+label{
+    display: inline-block;
+    text-align: right;
+}
+
+header, nav{
+    font-weight: bold;
+}
+.final{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
