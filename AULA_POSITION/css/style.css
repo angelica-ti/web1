@@ -1,0 +1,150 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    float: left;
+
+}
+img{
+    width: 50%;
+    height: 100%;
+}
+
+footer p{
+    text-align: center;
+}
+
+.container{
+    position: absolute; 
+    width: 100%;
+    height: 775px;
+}
+
+.box{
+    outline: 1px solid black;
+}
+header{
+    width: 100%;
+    height: 100px;
+    float: center;
+    padding: 2%;
+}
+
+nav{
+    width: 100%;
+    /* height: 50px; */
+}
+.nav-class{
+    background-color: #333;
+    overflow: hidden;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    padding: 15px;
+    color: white;
+}
+.nav-class ul li a:hover{
+    background-color: gray;
+}
+
+main{
+    width: 100%;
+    height: 565px;
+}
+.intern{
+    position: relative;
+    width: 50%;
+    height: 100%;
+}
+
+video{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+aside{
+    width: 25%;
+    height: 100%;
+}
+aside p{
+    padding: 10px 15px 10px 10px;
+    text-align: justify;
+    overflow: hidden;
+}
+.box-login{
+    width: 100%;
+    height: 50%;
+    border-bottom: none;
+    margin: 15px 10px 15px 10px;
+}
+.box-image{
+    width: 100%;
+    height: 50%;
+    border-top: 2px dashed black;
+}
+footer{
+    width: 100%;
+    height: 60px;
+    clear: both;
+    padding: 20px;
+}
+.color1{
+    background-color: rgb(210, 206, 206);
+}
+
+label{
+    display: block;
+    width: 25%;
+}
+
+input{
+    display: block;
+    width: 60%;
+    margin-bottom: 5%;
+}
+
+input[type="checkbox"]{
+    clear: both;
+    width: auto;
+}
+
+header h4, footer p{
+    float: none;
+    clear: both;
+    text-align: center;
+}
+button{
+    float: right;
+    padding: 0px 15px 0px 15px;
+    margin-right: 15%;
+}
+.box1{
+    top: 50px;
+    left: 50px;
+    background-color: rgb(249, 113,0);
+}
+.box2{
+    top: 50px;
+    right: 50px;
+    background-color:yellow;
+}
+.box3{
+    bottom: 50px;
+    left: 50px;
+    background-color: cyan;
+}
+.box4{
+    bottom: 50px;
+    right: 50px;
+    background-color: greenyellow;
+}
+.size{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    clear: both;
+}
+
