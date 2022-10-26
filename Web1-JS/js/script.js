@@ -9,11 +9,15 @@ function limpar(){
 }
 
 function calcular(){
-    var x = parseInt(document.querySelector('#fx').value);
-    var y = parseInt(document.querySelector('#fy').value);
-    var result = document.querySelector('#result');
+    const x = parseInt(document.querySelector('#fx').value);
+    const y = parseInt(document.querySelector('#fy').value);
+    const result = document.querySelector('#result');
+    const lblParImpar = document.getElementById('lblParImpar');
+    var box = document.getElementById('box');
+    var body = document.querySelector('body');
 
-    var radios = document.getElementsByName('function');
+    const radios = document.getElementsByName('function');
+    var res, op;
     for(i=0;i<radios.length;i++){
         if(radios[i].checked){
             break;
@@ -21,16 +25,33 @@ function calcular(){
     }
     switch(radios[i].value){
         case '1':
-            result.innerHTML = x + y;
+            res = x + y;
+            op = "+";
             break;
         case '2':
-            result.innerHTML = x - y;
+            res = x - y;
+            op = "-";
             break;
         case '3':
-            result.innerHTML = x * y;
+            res = x * y;
+            op = "*";
             break;
         default:
-            result.innerHTML = x / y;
+            res = x / y;
+            op = "/";
         
+    }
+
+    result.innerHTML = `O resultado de ${x} ${op} ${y} é: ${res}`;
+
+    if (res%2 == 0){
+        lblParImpar.textContent = "Par";
+        body.style.backgroundColor = "lightblue";
+        box.style.backgroundColor = "lightgreen";
+    }
+    else{
+        lblParImpar.textContent = "Ímpar";
+        body.style.backgroundColor = "lightgreen";
+        box.style.backgroundColor = "lightblue";
     }
 }
