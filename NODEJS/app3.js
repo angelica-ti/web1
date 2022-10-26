@@ -2,11 +2,17 @@ let LEN = 3;
 const vector = new Array(LEN);
 const prompt = require('prompt-sync')();
 
-var i = 1;
+var i = 0;
 
-while(i<=LEN){
-    vector[i] = prompt(`Digite o ${i}° número:`);
+while(i<LEN){
+    vector[i] = parseInt(prompt(`Digite o ${i+1}° número:`));
     i++;
 }
 
-console.log(vector.join(' '));
+var soma = 0;
+for(let i=0;i<vector.length;i++){
+    soma += vector[i];
+}
+
+// console.log(vector.join(' '));
+console.log(`Soma: ${soma}`)
