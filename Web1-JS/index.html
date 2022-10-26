@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web1</title>
+    <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
     <form>
@@ -28,9 +29,18 @@
         <label for="css">Multiplicar</label><br>
         <input type="radio" id="javascript" name="function" value='4'>
         <label for="javascript">Dividir</label><br><br>
-        <button id="btn-mostrar" type="button" onclick="calcular()">Calcular</button>
-        <span id="result"></span>
+        <button id="btn-mostrar" type="button" onclick="calcular()">Calcular</button><br>
+        <span id="result"></span><br>
+        <label id="lblParImpar"></label><br>
+        <div class="control-wh">
+            <label for="width-div">Width:</label>
+            <input id="width-div" type="range" min="0" max="200" value="200"><br>
+            <label for="height-div">Height:</label>
+            <input id="height-div" type="range" min="0" max="200" value="200">
+        </div>
+        <div id="box"></div>
     </form>
     <script src="js/script.js"></script>
+    <script src="js/change.js"></script>
 </body>
 </html>
